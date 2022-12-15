@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:fontFamily="@font/manrope_bold"
+            android:text="@string/heading"
+            android:textSize="35sp"
+            android:textIsSelectable="false"
+            android:textColorHighlight="@color/purple_200"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.822"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/ash"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/manrope_regular"
+            android:justificationMode="inter_word"
+            android:text="@string/slogan"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.478"
+            android:textColor="@color/ash"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/login"
+                android:onClick="showMessage"
+                android:fontFamily="@font/manrope_bold"
+                android:textSize="15sp"
+                android:textColor="@color/ash"
+                android:textAllCaps="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/button_states"
+
+                />
+
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/logout"
+                android:onClick="showMessage"
+                android:fontFamily="@font/manrope_bold"
+                android:textSize="15sp"
+                android:textColor="@color/ash"
+                android:textAllCaps="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/button_states"
+
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset Counter"
+            android:onClick="showMessage"
+            android:textAllCaps="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_primary"
+            android:fontFamily="@font/manrope_bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/loginButtonClickedText"
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:fontFamily="@font/manrope_regular" />
+
+        <TextView
+            android:id="@+id/logoutButtonClickedText"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:fontFamily="@font/manrope_regular" />
+
+    </LinearLayout>
+
+
+</ScrollView>

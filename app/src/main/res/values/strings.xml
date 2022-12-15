@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    <string name="actionbar_title">Highway Next</string>
+
+    <string name="heading">Highway Next</string>
+
+    <string name="changed_heading">Go Bangladesh</string>
+
+    <string name="slogan">One App, One System, One Step</string>
+
+    <string name="changed_slogan">One app, One system, One step</string>
+
+    <string name="login">Login</string>
+
+    <string name="logout">Logout</string>
+
+    <string name="loginButtonClickedText">Login button is clicked.</string>
+
+    <string name="logoutButtonClickedText">Logout button is clicked.</string>
+
+    <string name="counterResetToast">Counter has been reset</string>
+</resources>
